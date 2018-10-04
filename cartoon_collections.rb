@@ -25,6 +25,8 @@ long_planeteer_calls(["puff", "go", "two"])
 def find_the_cheese(array)
   cheese = ['cheddar', 'gouda', 'camembert']
   cheese.each do |word|
-    array.include?(word)
-    
+    if array.include?(word) == true
+      return word 
+    end
+  end
 end
