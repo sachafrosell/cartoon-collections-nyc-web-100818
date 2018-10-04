@@ -27,6 +27,8 @@ def find_the_cheese(array)
   cheese.each do |word|
     if array.include?(word) == true
       return word 
+    else 
+      return nil
     end
   end
 end
