@@ -22,4 +22,5 @@ end
 
 long_planeteer_calls(["puff", "go", "two"])
 
-def find
+def find_the_cheese
+end
