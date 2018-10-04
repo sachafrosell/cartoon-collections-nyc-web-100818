@@ -14,7 +14,7 @@ end
 
 summon_captain_planet(["earth", "wind", "fire", "water", "heart"])
 
-def long_planeteer_calls
+def long_planeteer_calls(array)
   array.any? do |word|
     word.length > 4
   end
