@@ -30,3 +30,5 @@ def find_the_cheese(array)
     end
   end
 end
+
+find_the_cheese(["crackers", "gouda", "thyme"])
