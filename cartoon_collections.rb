@@ -23,4 +23,6 @@ end
 long_planeteer_calls(["puff", "go", "two"])
 
 def find_the_cheese
+  cheese = ['cheddar', 'gouda', 'camembert']
+  
 end
