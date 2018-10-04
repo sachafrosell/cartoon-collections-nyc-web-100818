@@ -21,3 +21,5 @@ def long_planeteer_calls(array)
 end
 
 long_planeteer_calls(["puff", "go", "two"])
+
+def find
