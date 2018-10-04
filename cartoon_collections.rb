@@ -22,7 +22,9 @@ end
 
 long_planeteer_calls(["puff", "go", "two"])
 
-def find_the_cheese
+def find_the_cheese(array)
   cheese = ['cheddar', 'gouda', 'camembert']
-  
+  cheese.each do |word|
+    array.include?(word)
+    
 end
